@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.809f06ad.css",
+    "main.js": "/static/js/main.c32cabdb.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/mohamed cv.pdf": "/static/media/mohamed cv.a2474357eafbba4f33e5.pdf",
+    "static/media/profile.jpg": "/static/media/profile.8adc7b995e223d134164.jpg",
+    "static/media/girl1testimonial.png": "/static/media/girl1testimonial.52ae0379ff994dfea303.png",
+    "static/media/boy2testimonial.png": "/static/media/boy2testimonial.3733083df491e4fe0c92.png",
+    "static/media/boy1testimonial.png": "/static/media/boy1testimonial.e8beeaaec749c64bc5c4.png",
+    "static/media/logo m logo only.png": "/static/media/logo m logo only.99ebbc14797d4e3ba49f.png",
+    "index.html": "/index.html",
+    "main.809f06ad.css.map": "/static/css/main.809f06ad.css.map",
+    "main.c32cabdb.js.map": "/static/js/main.c32cabdb.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.809f06ad.css",
+    "static/js/main.c32cabdb.js"
+  ]
+}
