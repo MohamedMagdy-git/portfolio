@@ -1,0 +1,117 @@
+.qualifications_container {
+    max-width: 768px;
+}
+
+.qualifications_tap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--mb-2);
+    gap: 1rem;
+}
+.qualifications_button {
+    font-size: var(--h3-font-size);
+    color: var(--title-color);
+    cursor: pointer;
+    font-weight: 500;
+    user-select: none;
+    transition: .2s linear;
+}
+.qualifications_button:hover {
+    color: var(--dark-Green-color);
+}
+.qualifications_button i {
+    color: var(--Green-color);
+    font-size: 2rem;
+    margin-right: var(--mb-0-25);
+}
+.qualifications_sections {
+    display: grid;
+    grid-template-columns: .6fr;
+    justify-content: center;
+    transition: .2s linear;
+}
+.qualifications_content {
+    display: none;
+    transition: .1s linear;
+}
+.qualifications_content_active {
+    display: block;
+}
+.qualifications_data {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    gap: 1.2rem;
+    transition: .2s linear;
+}
+.qualifications_title {
+    font-size: var(--normal-font-size);
+    font-weight: 500;
+}
+.qualifications_subtitle {
+    font-size: var(--small-font-size);
+}
+.qualifications_calendar {
+    font-size: var(--small-font-size);
+    margin-top: var(--mb-0-75);
+}
+.qualifications_rouned {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: var(--Green-color);
+}
+.qualifications_line {
+    width: 1px;
+    height: 100%;
+    transform: translate(6px, -7px);
+    background-color: var(--Green-color);
+    display: block;
+}
+
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .qualifications_data {
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+        gap: .8rem;
+        transition: .2s linear;
+    }
+    .qualifications_title {
+        font-size: .8rem;
+        font-weight: 500;
+    }
+    .qualifications_subtitle {
+        font-size: .7rem;
+    }
+    .qualifications_calendar {
+        font-size: .1rem;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .qualifications_container {
+        max-width: auto;
+    }
+    .qualifications_sections {
+        display: grid;
+        grid-template-columns: initial;
+        justify-content: center;
+        transition: .2s linear;
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+
+  }
+  
