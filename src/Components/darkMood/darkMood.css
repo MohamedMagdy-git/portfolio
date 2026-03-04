@@ -1,0 +1,71 @@
+.darkMood {
+    position: fixed;
+    right: -16px;
+    bottom: 16px;
+    z-index: 10;
+    width: fit-content;
+}
+
+
+.darkBttn {
+    padding: 14px 40px 14px 16px;
+    z-index: 20;
+    padding-bottom: 10px;
+    transition: .5s ease;
+    background: rgba(255, 255, 255, 0.15) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+}
+.darkBttn:hover {
+    padding-right: 50px;
+}
+
+.moon {
+    color: #C9C9C9
+    ;
+}
+
+.sun {
+    color: #FFCC33;
+}
+
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .darkMood {
+        position: fixed;
+        right: -16px;
+        bottom: 68px;
+        z-index: 10;
+        width: fit-content;
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .darkMood {
+    position: fixed;
+    right: -16px;
+    top: 8px;
+    z-index: 10;
+    width: fit-content;
+}
+  }
+  
+  @media screen and (max-width: 576px) {
+    
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+
+  }
