@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import './footer.css'
-import  myLogo from '../../assets/logo updated.svg'
 import { SlSocialFacebook, SlSocialLinkedin, SlSocialGithub } from "react-icons/sl";
 
 const Footer = () => {

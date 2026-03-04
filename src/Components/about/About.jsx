@@ -1,5 +1,4 @@
 import './about.css'
-import aboutImglight from '../../assets/profile png.webp'
 import aboutImgdark from '../../assets/profile png.webp'
 import { Info } from './Info'
 import { useEffect, useState } from 'react'
