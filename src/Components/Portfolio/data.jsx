@@ -34,7 +34,7 @@ export const data = [
     image: "https://i.ibb.co/Q0jgTsm/Movieskorner-project.webp",
     title: "Movies korner",
     category: "web",
-    demo_link: "https://movieskorner.netlify.app/"
+    demo_link: "https://movies-korner.vercel.app/"
   },
 ];
 
